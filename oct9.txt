@@ -1,0 +1,13 @@
+
+access token === Nivas ===> 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 
+
+git init 				=== 	initalizre git as local repository
+git add  .			===	add all files in folder
+git status			=== 	status of which file has to be 
+git log				=== 	which documents have been committed
+git commit -m "name"		===	commits the file with given name
+git remote add origin URL
+git branch -M main
+git push -u origin main
+git pull remoteurl
+
