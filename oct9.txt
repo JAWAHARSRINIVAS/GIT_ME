@@ -7,8 +7,11 @@ git status			=== 	status of which file has to be
 git log				=== 	which documents have been committed
 git commit -m "name"		===	commits the file with given name
 git remote add origin URL
-git branch -M main
-git push -u origin main
+git push origin master
 git pull remoteurl
 
 BRANCHING:-
+git branch              === see all branches
+git branch branch_name  === create a branch
+git checkout branch_name === switch to another branch
+git push origin branch_name === add branch to remote repo
